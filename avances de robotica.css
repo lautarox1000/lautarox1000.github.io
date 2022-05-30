@@ -1,0 +1,75 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgba(27, 27, 27, 0.952);
+}
+
+.menu {
+    list-style: none;
+    padding: 0px;
+    margin: 10px 10px;
+    background-color: black;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    border-style: inset;
+    border-color: goldenrod;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+}
+
+.menu li{
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: gold;
+}
+
+.menu2 {
+    background-color: black;
+    color: white;
+    margin: 20px 30px;
+}
+
+.text {
+    background-image: url(../imagenes/fondos-negros-degradados-marcos-dorados_23-2149165624.jpg);
+    border-style: inset;
+    border-color: goldenrod;
+    background-color: black;
+    color: white;
+    padding: 70px 10px;
+    margin: 50px 100px;
+    text-align: justify;
+}
+
+.text p {
+    background-color: black;
+    text-align: justify;
+    margin-right: 500px;
+    border-color: goldenrod;
+    border-style: double;
+}
+
+.imagen1 {
+    padding: -10px 10px;
+    margin: -450px 600px;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(184, 148, 59);
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+}
+
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  grid-area: header;
+  background-color: rgb(20, 20, 20);
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: rgb(20, 20, 20);
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: rgb(20, 20, 20);
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(20, 20, 20);
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(20, 20, 20);
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template:
+    "header"  100px
+    "navbar"  50px
+    "main"    auto
+    "sidebar" 100px
+    "footer"  100px;
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template:
+      "header  header" 100px
+      "navbar  navbar" 50px
+      "sidebar main"   auto
+      "footer  footer" 100px /
+      200px    auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template:
+      "header  header header"  100px
+      "navbar  main   sidebar" auto
+      "footer  footer footer"  100px /
+      200px    auto   200px;
+  }
+}
+
+.menu {
+    margin: 10px;
+    background-color: rgb(20, 20, 20);
+}
+
+.lista {
+    background-color: black;
+    border-color: goldenrod;
+    border-radius: 15px;
+    border-style: inset;
+    margin:  50px 80px;
+    padding: 6px 10px;
+}
+
+.titulo {
+    background-color: rgb(20, 20, 20);
+}
+
+.texto {
+    background-color: rgb(20, 20, 20);
+    margin: 40px;
+}
+
+.derivados {
+    background-color: rgb(20, 20, 20);
+    margin: 11px 500px;
+    padding: 1px;
+    border-style: inset;
+    border-color: goldenrod;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
